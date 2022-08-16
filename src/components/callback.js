@@ -10,7 +10,7 @@ const Callback = () => {
         } else{
             setColor("red")
         }
-    },[color])  // 함수를 만들 때 거의 무조건 사용
+    },[color])  // 함수를 만들 때 거의 무조건 사용!!
     
     return (
         <>
