@@ -36,6 +36,6 @@ export default Effect
  // useEffect 작동원리
 
 // useEffect(()=> {
-//     if(postDone){ 실행문 } --> 페이지가 열릴때 실행  
-//     return () => console.log("안녕하세요!");  -->  페이지가 닫힐 때 실행
+//     if(postDone){ 실행문 } --> 페이지가 열릴때 실행(mount)
+//     return () => console.log("안녕하세요!");  -->  페이지가 닫힐 때 실행(unmount)
 // },[postDone]);
